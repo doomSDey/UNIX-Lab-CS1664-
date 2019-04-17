@@ -1,0 +1,16 @@
+	newnode->data=x;
+				newnode->prev=freehead;
+				newnode->next=NULL;
+			}
+		}
+	}
+	printf("Freelist:\n");
+	//freehead=temp1;
+	printf("Freehead %d\n",freehead->data);
+	//display(freehead);
+	printf("Enter the number to enter into the buffer\n");
+	scanf("%d",&x);
+	int flag=0;
+	for(i=0;i<n2;i++)
+	{
+		if(ele[i]==x)
