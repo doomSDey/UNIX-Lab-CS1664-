@@ -1,11 +1,15 @@
 #include<stdio.h>
 
 int main(){
-  int s,n,i,temp,seq[100],k=0,j=0,hit=0,arr[100];
+  int s,n,i,temp,k=0,j=0,hit=0;
   printf("Enter the frame size\n");
   scanf("%d",&s);
   printf("Enter the no. of elements\n");
   scanf("%d",&n);
+
+  // Create array of size n
+  int seq[n], arr[n];
+  
   printf("Enter the sequence\n");
   for(i=0;i<n;i++){
     scanf("%d",&seq[i]);
